@@ -1,0 +1,95 @@
+// Here you can add other styles
+.sidebar-minimized {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+.table {
+  th,
+  tr {
+    cursor: pointer;
+  }
+
+  .time,
+  .id,
+  .index {
+    color: #5c6873;
+  }
+
+  .group,
+  .task {
+    font-style: italic;
+  }
+}
+
+.table-filter {
+
+  .filter {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+  }
+
+  .fields {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    margin-bottom: 2rem;
+  }
+
+  .label {
+    margin-right: .5rem;
+  }
+
+  & > div {
+    padding: 0;
+  }
+
+  .form-row {
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-select {
+    background: none;
+  }
+}
+
+.logger {
+  .btn {
+    text-align: left;
+  }
+
+  .ai {
+    strong {
+      color: $danger;
+    }
+  }
+  
+  .client {
+    strong {
+      color: $success;
+    }
+  }
+
+  .plain {
+    font-style: italic;
+  }
+
+  .list-group {
+    margin-bottom: 2rem;
+  }
+}
+
+.btn-delete {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 90%;
+  }
+}
